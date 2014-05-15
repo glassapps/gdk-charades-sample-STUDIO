@@ -1,0 +1,37 @@
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- From: file:/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.google.android.glass.sample.charades">
+
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_game_50" android:label="@string/app_name">
+
+        <activity android:name="com.google.android.glass.sample.charades.StartGameActivity">
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.glass.VoiceTrigger" android:resource="@xml/voice_trigger_play_a_game"/>
+        </activity>
+
+        <activity android:name="com.google.android.glass.sample.charades.GameplayActivity"/>
+
+        <activity android:name="com.google.android.glass.sample.charades.TutorialActivity"/>
+
+        <activity android:name="com.google.android.glass.sample.charades.GameResultsActivity"/>
+
+    </application>
+
+</manifest>

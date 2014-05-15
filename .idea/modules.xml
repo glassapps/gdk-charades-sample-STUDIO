@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///var/host/media/removable/USB_Drive/github/gdk-charades-sample-STUDIO/app/app.iml" filepath="/var/host/media/removable/USB_Drive/github/gdk-charades-sample-STUDIO/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdk-charades-sample-STUDIO.iml" filepath="$PROJECT_DIR$/gdk-charades-sample-STUDIO.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res" >
+            <file
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string-array name="phrases" >
+                    <item>
+Setting an alarm clock
+                    </item>
+                    <item>
+Playing charades
+                    </item>
+                    <item>
+Soaking dentures
+                    </item>
+                    <item>
+Breaking up with someone
+                    </item>
+                    <item>
+Germinating a seed
+                    </item>
+                    <item>
+Digging a ditch
+                    </item>
+                    <item>
+Talking to a telemarketer
+                    </item>
+                    <item>
+Watching the big game
+                    </item>
+                    <item>
+Graduating from college
+                    </item>
+                    <item>
+Getting a tattoo
+                    </item>
+                    <item>
+Filming Bigfoot
+                    </item>
+                    <item>
+Grilling a hamburger
+                    </item>
+                    <item>
+Winning an eating contest
+                    </item>
+                    <item>
+Chopping down a tree
+                    </item>
+                    <item>
+Hanggliding
+                    </item>
+                    <item>
+Walking a tightrope
+                    </item>
+                    <item>
+Feeding a cat
+                    </item>
+                    <item>
+Cleaning a litter box
+                    </item>
+                    <item>
+Walking a dog
+                    </item>
+                    <item>
+Drinking a love potion
+                    </item>
+                    <item>
+Smelting precious metals
+                    </item>
+                    <item>
+Designing good Glassware
+                    </item>
+                    <item>
+Ordering a pizza
+                    </item>
+                    <item>
+Scrolling a mouse wheel
+                    </item>
+                    <item>
+Making chocolate chip cookies
+                    </item>
+                    <item>
+Riding a bicycle
+                    </item>
+                    <item>
+Shopping at the mall
+                    </item>
+                    <item>
+Sending a text message
+                    </item>
+                    <item>
+Looking through a telescope
+                    </item>
+                    <item>
+Flinging pizza dough
+                    </item>
+                </string-array>
+
+                <string name="instructions" >Instructions
+                </string>
+                <string name="score_summary" >Score: %1$d/%2$d
+                </string>
+                <string name="tap_for_options" >Tap for options
+                </string>
+                <string name="great_job" >Great job!
+                </string>
+                <string name="app_name" >Charades
+                </string>
+                <string name="new_game" >New game
+                </string>
+                <string name="game_over" >Game over
+                </string>
+
+                <string-array name="tutorial_phrases" >
+                    <item>
+Tap to score
+                    </item>
+                    <item>
+Swipe forward to pass
+                    </item>
+                    <item>
+Act out 10 phrases in 1 minute
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="card_margin" >40px
+                </dimen>
+                <dimen name="timer_margin_left" >40px
+                </dimen>
+                <dimen name="tip_margin_bottom" >33px
+                </dimen>
+                <dimen name="result_icon_margin_right" >20px
+                </dimen>
+            </file>
+            <file
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/values/integers.xml"
+                qualifiers="" >
+                <integer name="slide_duration_ms" >
+150
+                </integer>
+            </file>
+            <file
+                name="ic_phrase_correct_30"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/drawable-hdpi/ic_phrase_correct_30.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_game_50"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/drawable-hdpi/ic_game_50.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_phrase_missed_30"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/drawable-hdpi/ic_phrase_missed_30.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_help_50"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/drawable-hdpi/ic_help_50.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="voice_trigger_play_a_game"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/xml/voice_trigger_play_a_game.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="activity_gameplay"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/layout/activity_gameplay.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="table_row_result"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/layout/table_row_result.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="card_results_summary"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/layout/card_results_summary.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_start_game"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/layout/activity_start_game.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="card_results_phrase_list"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/layout/card_results_phrase_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="slide_out_left"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/anim/slide_out_left.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="slide_in_right"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/anim/slide_in_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="tug_right"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/anim/tug_right.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="game_results"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/menu/game_results.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="start_game"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/menu/start_game.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="sad_trombone"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/raw/sad_trombone.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="triumph"
+                path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/res/raw/triumph.ogg"
+                qualifiers=""
+                type="raw" />
+        </source>
+        <source path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/build/res/rs/debug" />
+        <source path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/debug/res" />
+    </dataSet>
+
+</merger>

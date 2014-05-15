@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/var/host/media/removable/USB_Drive/github/glassapps/gdk-charades-sample-STUDIO/app/src/debug/assets" />
+    </dataSet>
+
+</merger>
